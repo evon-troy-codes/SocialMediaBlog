@@ -8,13 +8,6 @@ import java.sql.SQLException;
 import org.h2.jdbcx.JdbcDataSource;
 import org.h2.tools.RunScript;
 
-/**
- * The ConnectionUtil class will be utilized to create an active connection to
- * our database. This class utilizes the singleton design pattern. We will be
- * utilizing an in-memory called h2database for the sql demos.
- *
- * DO NOT CHANGE ANYTHING IN THIS CLASS
- */
 public class ConnectionUtil {
 
     /**
